@@ -1,11 +1,9 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Rice {
-	
+
 	private double RiceValue;
 
-	List<Rice> RiceProfit = new ArrayList<Rice>();
+	// List<Rice> RiceProfit = new ArrayList<Rice>();
 
 	public double getRiceValue() {
 		return RiceValue;
@@ -14,6 +12,5 @@ public class Rice {
 	public void setRiceValue(double riceValue2) {
 		RiceValue = riceValue2;
 	}
-	
-	
+
 }
